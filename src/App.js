@@ -215,9 +215,7 @@ return (
 	<Navbar />
 	<Routes>
 		<Route path='/' element={<home role="home" className="col-lg-12 d-flex">
-									  { this.state.loading 
-										? <div id="loader" className="text-centre"><p className="text-centre">Loading...</p></div> 
-										: <Home 
+									  { <Home 
 										  ownerroles={this.state.ownerroles} 
 										  products={this.state.products} 
 										  createProduct={this.createProduct}
@@ -227,9 +225,7 @@ return (
 										</home>}/>
 		
 		<Route path='/Farmer' element={<farmer role="farmer" className="col-lg-12 d-flex">
-									  { this.state.loading 
-										? <div id="loader" className="text-centre"><p className="text-centre">Loading...</p></div> 
-										: <Farmer 
+									  { <Farmer 
 										  products={this.state.products} 
 										  ownerroles={this.state.ownerroles} 
 										  createProduct={this.createProduct}
@@ -239,17 +235,13 @@ return (
 										</farmer>} />
 										
 		<Route path='/ProcessOwner' element={<processowner role="processowner" className="col-lg-12 d-flex">
-									  { this.state.loading 
-										? <div id="loader" className="text-centre"><p className="text-centre">Loading...</p></div> 
-										: <ProcessOwner
+									  {  <ProcessOwner
 										  processors={this.state.processors} 
 										  createProcessor={this.createProcessor}/> 
 										  }
 										</processowner>} />								
 		<Route path='/Distributor' element={<distributor role="distributor" className="col-lg-12 d-flex">
-									  { this.state.loading 
-										? <div id="loader" className="text-centre"><p className="text-centre">Loading...</p></div> 
-										: <Distributor
+									  {  <Distributor
 										  distributes={this.state.distributes} 
 										  createDistribute={this.createDistribute} /> 
 										  }
