@@ -19,6 +19,16 @@ module.exports = {
         return new HDWalletProvider(MNEMONIC, INFURA_API_KEY, AccountIndex);
       },
       network_id: "*"
-    }
+    },
+  },
+  contracts_directory: './src/contracts/',
+  contracts_build_directory: './src/abis/',
+  compilers: {
+    solc: {
+      optimizer: {
+        enabled: true,
+        runs: 200
+}
+	}
   }
-};
+}
