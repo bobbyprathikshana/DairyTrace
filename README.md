@@ -4,7 +4,6 @@ Dairy products are one of the indispensable foods in people's lives. Oftentimes 
 
 Application: 
 
-
 Farmer
 The farmer can access the system by first completing the registration process.
 He can then put up the farm produce i.e various types of milk on sale. The details of the farm produce will be validated by the system to detect adulteration.
@@ -21,7 +20,7 @@ The distributor can access the system by first completing the registration proce
 He can make entries of the distribution in the system.
 He is responsible for delivering the goods from the loading location to the unloading location.
 
- Retailer
+Retailer
 The transporter can access the system by first completing the registration process.
 Customer
 The customer can access the system by first completing the registration process.
@@ -55,14 +54,9 @@ members can directly query data information through a portal, APP and applicatio
 This is achieved using html, css and js.
 MODULES
 
-Farmer Information Retrieval
-
-
-Processor Information Retrieval
-
-
-
-Distributor Information Retrieval
+1. Farmer Information Retrieval
+2. Processor Information Retrieval
+3. Distributor Information Retrieval
 
 
 
