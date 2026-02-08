@@ -5,27 +5,31 @@ Dairy products are one of the indispensable foods in people's lives. Oftentimes 
 Application: 
 
 Farmer
-The farmer can access the system by first completing the registration process.
+- The farmer can access the system by first completing the registration process.
 He can then put up the farm produce i.e various types of milk on sale. The details of the farm produce will be validated by the system to detect adulteration.
 
 
 Process Owner
-The process owner can access the system by first completing the registration process.
+- The process owner can access the system by first completing the registration process.
 The process owner can buy the raw materials put up on sale by the farmer.
 He can also put up various dairy products such as different qualities of milk etc for sale.
 He can also add the products to warehouses for storage.
 He can provide feedback on the orders placed.
+
 Distributor
-The distributor can access the system by first completing the registration process.
+- The distributor can access the system by first completing the registration process.
 He can make entries of the distribution in the system.
 He is responsible for delivering the goods from the loading location to the unloading location.
 
 Retailer
-The transporter can access the system by first completing the registration process.
+- The transporter can access the system by first completing the registration process.
+- 
 Customer
-The customer can access the system by first completing the registration process.
+- The customer can access the system by first completing the registration process.
 He can buy various dairy products put up on sale by the producer.
 He can provide feedback on the orders placed.
+
+
 Also, the customers can scan the QR code to get the details of the purchased product of milk on the portal
 TECHNICAL FLOW
 
